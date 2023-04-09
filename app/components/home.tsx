@@ -9,6 +9,7 @@ import styles from "./home.module.scss";
 
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
+import QQIcon from "../icons/qq.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 
 import BotIcon from "../icons/bot.svg";
@@ -23,6 +24,7 @@ import { Chat } from "./chat";
 
 import dynamic from "next/dynamic";
 import { REPO_URL } from "../constant";
+import { GROUP_QQ_URL } from "../constant";
 import { ErrorBoundary } from "./error";
 
 export function Loading(props: { noLogo?: boolean }) {
@@ -121,7 +123,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Next</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            下方可加交流群, 同款程序搭建v: Shannian568
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -157,8 +159,8 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} shadow />
+              <a href={GROUP_QQ_URL} target="_blank">
+                <IconButton icon={<QQIcon />} shadow />
               </a>
             </div>
           </div>
