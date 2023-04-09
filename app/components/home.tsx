@@ -159,7 +159,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={GROUP_QQ_URL} target="_blank">
+              <a href="./qq.jpg" target="_blank">
                 <IconButton icon={<QQIcon />} shadow />
               </a>
             </div>
