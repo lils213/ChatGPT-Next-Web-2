@@ -57,6 +57,12 @@ const cn = {
       ClearAll: "清除所有数据",
       ResetAll: "重置所有选项",
       Close: "关闭",
+      ConfirmResetAll: {
+        Confirm: "Are you sure you want to reset all configurations?",
+      },
+      ConfirmClearAll: {
+        Confirm: "Are you sure you want to reset all chat?",
+      },
     },
     Lang: {
       Name: "Language",
@@ -120,7 +126,7 @@ const cn = {
     },
     AccessCode: {
       Title: "访问密码",
-      SubTitle: "现在是未授权访问状态",
+      SubTitle: "已开启加密访问",
       Placeholder: "请输入访问密码",
     },
     Model: "模型 (model)",
