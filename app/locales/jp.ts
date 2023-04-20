@@ -157,6 +157,37 @@ const jp = {
       SubTitle: "値が大きいほど、新しいトピックへの展開が可能になります。",
     },
   },
+  Contact: {
+    Title: "連絡先",
+    SubTitle: "フォローまたはチャットグループに参加する",
+    Actions: {
+      Close: "閉じる",
+    },
+    Account: {
+      WeChatOfficialAccount: {
+        Title: "WeChat公式アカウント",
+        SubTitle: "公式アカウントをフォローして最新情報を入手できます",
+      }
+    },
+    Group: {
+      QQGroup: {
+        Title: "QQグループ",
+        SubTitle: "QQグループに参加してみんなと交流しましょう",
+      },
+      WeChatGroup: {
+        Title: "WeChatグループ",
+        SubTitle: "WeChatグループに参加してみんなと交流しましょう",
+      },
+      TelegramGroup: {
+        Title: "Telegramグループ",
+        SubTitle: "Telegramグループに参加してみんなと交流しましょう",
+      },
+      DiscordGroup: {
+        Title: "Discordグループ",
+        SubTitle: "Discordグループに参加してみんなと交流しましょう",
+      },
+    },
+  },
   Store: {
     DefaultTopic: "新しいチャット",
     BotHello: "何かお手伝いできることはありますか",

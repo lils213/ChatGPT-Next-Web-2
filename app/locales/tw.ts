@@ -152,6 +152,37 @@ const tw: LocaleType = {
       SubTitle: "值越大，越有可能擴展到新話題",
     },
   },
+  Contact: {
+    Title: "聯繫",
+    SubTitle: "關注我們 或 加入聊天群組",
+    Actions: {
+      Close: "關閉",
+    },
+    Account: {
+      WeChatOfficialAccount: {
+        Title: "微信公眾號",
+        SubTitle: "關注公眾號，獲取最新動態",
+      }
+    },
+    Group: {
+      QQGroup: {
+        Title: "QQ 群",
+        SubTitle: "加入 QQ 群，與大家一起交流",
+      },
+      WeChatGroup: {
+        Title: "微信群",
+        SubTitle: "加入微信群，與大家一起交流",
+      },
+      TelegramGroup: {
+        Title: "Telegram 群",
+        SubTitle: "加入 Telegram 群，與大家一起交流",
+      },
+      DiscordGroup: {
+        Title: "Discord 群",
+        SubTitle: "加入 Discord 群，與大家一起交流",
+      },
+    },
+  },
   Store: {
     DefaultTopic: "新的對話",
     BotHello: "請問需要我的協助嗎？",

@@ -156,6 +156,37 @@ const es: LocaleType = {
         "Un valor mayor aumenta la probabilidad de hablar sobre nuevos temas",
     },
   },
+  Contact: {
+    Title: "Contacto",
+    SubTitle: "Síguenos o únete a los grupos de chat",
+    Actions: {
+      Close: "Cerrar",
+    },
+    Account: {
+      WeChatOfficialAccount: {
+        Title: "Cuenta oficial de WeChat",
+        SubTitle: "Sigue la cuenta oficial y obtén las últimas noticias",
+      }
+    },
+    Group: {
+      QQGroup: {
+        Title: "Grupo de QQ",
+        SubTitle: "Únete al grupo de QQ y conversa con los demás",
+      },
+      WeChatGroup: {
+        Title: "Grupo de WeChat",
+        SubTitle: "Únete al grupo de WeChat y conversa con los demás",
+      },
+      TelegramGroup: {
+        Title: "Grupo de Telegram",
+        SubTitle: "Únete al grupo de Telegram y conversa con los demás",
+      },
+      DiscordGroup: {
+        Title: "Grupo de Discord",
+        SubTitle: "Únete al grupo de Discord y conversa con los demás",
+      },
+    },
+  },
   Store: {
     DefaultTopic: "Nueva conversación",
     BotHello: "¡Hola! ¿Cómo puedo ayudarte hoy?",

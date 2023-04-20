@@ -158,6 +158,37 @@ const tr: LocaleType = {
         "Daha büyük bir değer, yeni konular hakkında konuşma olasılığını artırır",
     },
   },
+  Contact: {
+    Title: "İletişim",
+    SubTitle: "Bizi takip edin veya sohbet grubumuza katılın",
+    Actions: {
+      Close: "Kapat",
+    },
+    Account: {
+      WeChatOfficialAccount: {
+        Title: "WeChat Resmi Hesabı",
+        SubTitle: "En son güncellemeleri almak için resmi hesabımızı takip edin",
+      }
+    },
+    Group: {
+      QQGroup: {
+        Title: "QQ Grubu",
+        SubTitle: "Herkesle birlikte iletişime geçmek için QQ grubumuza katılın",
+      },
+      WeChatGroup: {
+        Title: "WeChat Grubu",
+        SubTitle: "Herkesle birlikte iletişime geçmek için WeChat grubumuza katılın",
+      },
+      TelegramGroup: {
+        Title: "Telegram Grubu",
+        SubTitle: "Herkesle birlikte iletişime geçmek için Telegram grubumuza katılın",
+      },
+      DiscordGroup: {
+        Title: "Discord Grubu",
+        SubTitle: "Herkesle birlikte iletişime geçmek için Discord grubumuza katılın",
+      },
+    },
+  },
   Store: {
     DefaultTopic: "Yeni Konuşma",
     BotHello: "Merhaba! Size bugün nasıl yardımcı olabilirim?",
