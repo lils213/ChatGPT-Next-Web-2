@@ -8,6 +8,7 @@ import { IconButton } from "./button";
 import styles from "./home.module.scss";
 
 import SettingsIcon from "../icons/settings.svg";
+import { TbBrandWechat } from "react-icons/tb";
 import ChatGptIcon from "../icons/chatgpt.svg";
 
 import BotIcon from "../icons/bot.svg";
@@ -33,6 +34,10 @@ export function Loading(props: { noLogo?: boolean }) {
 }
 
 const Settings = dynamic(async () => (await import("./settings")).Settings, {
+  loading: () => <Loading noLogo />,
+});
+
+const Contact = dynamic(async () => (await import("./contact")).Contact, {
   loading: () => <Loading noLogo />,
 });
 
@@ -144,6 +149,8 @@ function _Home() {
   const [openSettings, setOpenSettings] = useState(false);
   const config = useChatStore((state) => state.config);
 
+  const [openContact, setOpenContact] = useState(false);
+
   // drag side bar
   const { onDragMouseDown } = useDragSideBar();
 
@@ -178,6 +185,7 @@ function _Home() {
           className={styles["sidebar-body"]}
           onClick={() => {
             setOpenSettings(false);
+            setOpenContact(false);
             setShowSideBar(false);
           }}
         >
@@ -197,6 +205,18 @@ function _Home() {
                 icon={<SettingsIcon />}
                 onClick={() => {
                   setOpenSettings(true);
+                  setOpenContact(false);
+                  setShowSideBar(false);
+                }}
+                shadow
+              />
+            </div>
+            <div className={styles["sidebar-action"]}>
+              <IconButton
+                icon={<TbBrandWechat />}
+                onClick={() => {
+                  setOpenSettings(false);
+                  setOpenContact(true);
                   setShowSideBar(false);
                 }}
                 shadow
@@ -227,6 +247,15 @@ function _Home() {
           <Settings
             closeSettings={() => {
               setOpenSettings(false);
+              setOpenContact(false);
+              setShowSideBar(true);
+            }}
+          />
+        ) : (openContact ? (
+          <Contact
+            closeContact={() => {
+              setOpenSettings(false);
+              setOpenContact(false);
               setShowSideBar(true);
             }}
           />
@@ -236,7 +265,7 @@ function _Home() {
             showSideBar={() => setShowSideBar(true)}
             sideBarShowing={showSideBar}
           />
-        )}
+        ))}
       </div>
     </div>
   );

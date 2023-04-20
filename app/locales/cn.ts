@@ -152,6 +152,37 @@ const cn = {
       SubTitle: "值越大，越有可能扩展到新话题",
     },
   },
+  Contact: {
+    Title: "联系",
+    SubTitle: "关注我们 或者 加入聊天群组",
+    Actions: {
+      Close: "关闭",
+    },
+    Account: {
+      WeChatOfficialAccount: {
+        Title: "微信公众号",
+        SubTitle: "关注公众号，获取最新动态",
+      }
+    },
+    Group: {
+      QQGroup: {
+        Title: "QQ 群",
+        SubTitle: "加入 QQ 群，与大家一起交流",
+      },
+      WeChatGroup: {
+        Title: "微信群",
+        SubTitle: "加入微信群，与大家一起交流",
+      },
+      TelegramGroup: {
+        Title: "Telegram 群",
+        SubTitle: "加入 Telegram 群，与大家一起交流",
+      },
+      DiscordGroup: {
+        Title: "Discord 群",
+        SubTitle: "加入 Discord 群，与大家一起交流",
+      },
+    },
+  },
   Store: {
     DefaultTopic: "新的聊天",
     BotHello: "有什么可以帮你的吗",
