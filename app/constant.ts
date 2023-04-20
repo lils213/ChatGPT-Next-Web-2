@@ -6,5 +6,5 @@ export const UPDATE_URL = `https://github.com/${OWNER}`;
 export const FETCH_COMMIT_URL = ``;
 export const FETCH_TAG_URL = ``;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
-export const WECHATOFFICIALACCOUNT_QRCODE_URL = `https://mp.weixin.qq.com/issenn`;
-export const QQGROUP_QRCODE_URL = `https://jq.qq.com/?_wv=1027&k=Zz2QPe6X`;
+export const WECHATOFFICIALACCOUNT_QRCODE_URL = `http://weixin.qq.com/r/9xDi53jEU7AvKDyEb0Vz`;
+export const QQGROUP_QRCODE_URL = `https://jq.qq.com/?_wv=1027&k=S1hu7EC3`;
